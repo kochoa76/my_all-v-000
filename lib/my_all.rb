@@ -11,6 +11,6 @@ def my_all?(collection)
   if my_collection.include? false
     false
   else
-    true 
+    true
   end
 end
