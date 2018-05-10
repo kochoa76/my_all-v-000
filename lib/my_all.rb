@@ -5,11 +5,12 @@ def my_all?(collection)
   my_collection= []
   while i< collection.length
     my_collection << yield(collection[i])
-    true
     i+=1
   end
 
   if my_collection.include? false
     false
+  else
+    true 
   end
 end
